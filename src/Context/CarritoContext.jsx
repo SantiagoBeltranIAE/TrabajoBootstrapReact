@@ -6,6 +6,7 @@ export function CarritoProvider({ children }) {
   const [carrito, setCarrito] = useState([]);
 
   const agregarAlCarrito = (producto) => {
+    console.log("Agregando al carrito:", producto.title);
     setCarrito((prev) => {
       const existe = prev.find((p) => p.id === producto.id);
       if (existe) {

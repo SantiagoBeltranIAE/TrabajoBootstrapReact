@@ -7,6 +7,8 @@ function CarritoComponent() {
     return <p className="text-center mt-4">Tu carrito está vacío.</p>;
   }
 
+
+
   return (
     <div className="container mt-4">
       <h2>Tu Carrito</h2>
@@ -29,6 +31,7 @@ function CarritoComponent() {
         Vaciar carrito
       </button>
     </div>
+    
   );
 }
 
